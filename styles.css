@@ -1,0 +1,106 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: rgb(121, 121, 124);
+    color: rgb(237, 230, 230);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background: #555;
+}
+
+
+.content {
+    background-color: rgb(17, 240, 237);
+    margin-left: 250px; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px auto; 
+}
+
+h1 {
+    font-size: 22px;
+    color: rgb(52, 5, 204);
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.tagline {
+    font-size: 16px;
+    color: gray;
+    margin-left: 10px;
+}
+
+
+.box {
+    background: rgb(163, 152, 152);
+    padding: 10px;
+    margin-top: 5px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none; 
+}
+
+.box h2 {
+    color: darkblue;
+    margin-bottom: 5px;
+}
+.below-logo-link{
+    font: size 16px;
+    color:rgb(56, 240, 240);
+    text-decoration:none;
+    font-weight:bold;
+    display:block
+   margin: top 5px;
+}
+
+
